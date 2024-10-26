@@ -1,0 +1,24 @@
+h1{
+    background-color: tomato;
+    text-align: center;
+    align-items: center;
+}
+
+table {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+table .left-menu{
+    width: 25%;
+}
+
+table .header, .footer{
+    height: 50px;
+}
+
+input{
+    margin: 2px;
+    align-items: center;
+}

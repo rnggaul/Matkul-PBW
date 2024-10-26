@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <!-- <nav>
+        <div class="button">
+            <h1>Lapangan Futsal Merdeka</h1>
+
+        </div>
+    </nav>
+     -->
+    <table border="1">
+        <tr>
+            <td colspan="2" class="header" align="center" heigt="50"> header
+                
+            </td>    
+        </tr>
+        <tr>
+            <td class="left-menu">left-menu</td>
+            <td><iframe src="https://baak.gunadarma.ac.id/" frameborder="0"></iframe></td>
+        </tr>
+        <tr>
+            <td class="footer" colspan="2"> footer</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <form action="proses.php" method="post">
+            <tr>
+                <td>Nama:</td>
+                <td><input type="text" name="nama"></td>    
+            </tr>
+            <tr>
+                <td>Kelas:</td>
+                <td><input type="text" name="kelas"></td>
+            </tr>
+            <tr>
+                <td>Jurusan:</td>
+            <td>
+                <select name="jurusan" id="jurusan">
+                    <option value="Komputer">Komputer</option>
+                    <option value="Industri">Industri</option>
+                    <option value="Ekonomi">Ekonomi</option>
+                </select>
+            </td>
+
+            <tr>
+                <td>Tahun ajaran:</td>
+                <td><input type="radio" name="tahun">2022</td>
+                <td><input type="radio" name="tahun">2023</td>
+                <td><input type="radio" name="tahun">2024</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Kirim"></td>
+                <td ><input type="reset" value="reset"></td>
+            </tr>
+        </form>
+    </table>
+    
+    
+    
+</body>
+</html>
